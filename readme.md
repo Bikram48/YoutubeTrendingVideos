@@ -79,7 +79,7 @@ The goal of this project is to fetch daily YouTube trending data, store it in a 
 ## Screenshots
 
 ```md
-![Airflow](screenshots/1.png.png)
+![Airflow](screenshots/1.png)
 ![S3 Bucket](screenshots/2.png)
 ![Glue Crawler](screenshots/7.png)
 ![Athena Query Editor](screenshots/3.png)
