@@ -22,14 +22,14 @@ def _process_data(**kwargs):
         language = response['items'][i]['snippet'].get('defaultLanguage', None)
         view_count = response["items"][i]['statistics'].get('viewCount', None)
         like_count = response["items"][i]['statistics'].get('likeCount', None)
-        comment_count = response["items"][i]['statistics'].get(
-            'commentCount', None)
+        comment_count = response["items"][i]['statistics'].get('commentCount', None)
         thumbnails = response["items"][i]['snippet'].get('thumbnails', None)
+        video_id = response['items'][i].get("id", None)
 
-        data.append({"title": video_title,
+        data.append({"video_id": video_id,
+                    "title": video_title,
                     "published_at": published_at,
                      "channel_title": channel_title,
-                     "tags": [', '.join(tags) if isinstance(tags, list) else ''],
                      "thumbnails": thumbnails.get('high', {}).get('url', None),
                      "category_id": category_id,
                      "language": language,
@@ -43,7 +43,7 @@ def _process_data(**kwargs):
 
     df = pd.DataFrame(data)
     jsonf_buffer = StringIO()
-    df.to_json(jsonf_buffer, orient="records", indent=2)
+    df.to_json(jsonf_buffer, orient="records", lines=True)
     jsonf_buffer.seek(0)
     json_data = jsonf_buffer.getvalue()
     s3_key = f"trending_videos_{timestamp}.json"

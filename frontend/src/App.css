@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.date-picker-container {
+  margin-bottom: 20px;
+}
+
+.date-picker-container label {
+  font-size: 18px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.date-picker {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
