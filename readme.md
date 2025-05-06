@@ -77,8 +77,6 @@ The goal of this project is to fetch daily YouTube trending data, store it in a 
   - Each card links to the actual YouTube video.
 
 ## Screenshots
-
-```md
 ![Airflow](screenshots/1.png)
 ![S3 Bucket](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/2.png)
 ![Glue Crawler](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/7.png)
@@ -88,7 +86,8 @@ The goal of this project is to fetch daily YouTube trending data, store it in a 
 ![Post Man](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/4.png)
 ![Frontend Dashboard](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/10.png)
 ![Frontend Dashboard](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/11.png)
-```
+
+
 
 ## Live Demo
 
