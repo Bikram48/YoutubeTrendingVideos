@@ -79,15 +79,15 @@ The goal of this project is to fetch daily YouTube trending data, store it in a 
 ## Screenshots
 
 ```md
-![Airflow](screenshots/1.png)
-![S3 Bucket](screenshots/2.png)
-![Glue Crawler](screenshots/7.png)
-![Athena Query Editor](screenshots/3.png)
-![Lambda Function](screenshots/6.png)
-![API Gateway](screenshots/5.png)
-![Post Man](screenshots/4.png)
-![Frontend Dashboard](screenshots/10.png)
-![Frontend Dashboard](screenshots/11.png)
+![Airflow](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/1.png)
+![S3 Bucket](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/2.png)
+![Glue Crawler](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/7.png)
+![Athena Query Editor](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/3.png)
+![Lambda Function](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/6.png)
+![API Gateway](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/5.png)
+![Post Man](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/4.png)
+![Frontend Dashboard](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/10.png)
+![Frontend Dashboard](https://github.com/Bikram48/YoutubeTrendingVideos/blob/master/screenshots/11.png)
 ```
 
 ## Live Demo
