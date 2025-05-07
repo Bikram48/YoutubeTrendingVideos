@@ -119,15 +119,14 @@ Hosted on **GitHub Pages**.
    - Create the table using the schema and point to the correct S3 location.
 
 4. **Lambda:**
-
-   - Paste the provided Python code.
+   
    - Add permissions for S3, Athena, and CloudWatch.
 
-5. **API Gateway:**
+6. **API Gateway:**
 
    - Create a REST API, enable CORS, and connect it to your Lambda.
 
-6. **Frontend:**
+7. **Frontend:**
 
    ```bash
    npm install
